@@ -1,0 +1,118 @@
+/* src/sections/Home/Home.css */
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 0;
+  min-height: 90vh;
+  position: relative;
+}
+
+.home-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.home-greeting {
+  font-size: 1.25rem;
+  color: var(--secondary-text);
+  margin-bottom: 0.5rem;
+}
+
+.home-name {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+/* This creates the blue accent line */
+.home-name::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 15px;
+  bottom: 15px;
+  width: 6px;
+  background-color: var(--accent-color);
+  border-radius: 3px;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  color: var(--secondary-text);
+  margin-bottom: 2rem;
+}
+
+.home-subtitle strong {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.home-socials {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+  border: 1px solid var(--secondary-text);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  transform: translateY(-3px);
+}
+
+.home-resume-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-text);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.home-resume-btn:hover {
+  background-color: #2563eb; /* A slightly darker blue */
+}
+
+.home-image-container {
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+.home-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; /* Your image has a cutout, but a border-radius helps */
+  object-fit: cover;
+}
+
+.github-corner-link {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  color: var(--secondary-text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.github-corner-link:hover {
+  color: var(--primary-text);
+}
