@@ -10,6 +10,7 @@ import Skills from './sections/Skills/Skills';
 import Projects from './sections/Projects/Projects';
 import Education from './sections/Education/Education';
 import Contact from './sections/Contact/Contact';
+import More from './sections/More/More'; // <-- 1. IMPORT THE NEW PAGE
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/education" element={<Education />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/more" element={<More />} /> {/* <-- 2. ADD THE NEW ROUTE */}
           </Routes>
         </main>
       </div>

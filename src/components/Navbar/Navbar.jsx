@@ -1,10 +1,8 @@
-// src/components/Navbar/Navbar.js
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
-  const [showMore, setShowMore] = useState(false);
 
   return (
     <nav className="navbar">
@@ -39,18 +37,10 @@ function Navbar() {
               Education
             </NavLink>
           </li>
-          <li className="nav-item nav-dropdown"
-              onMouseEnter={() => setShowMore(true)}
-              onMouseLeave={() => setShowMore(false)}
-          >
-            <span className="nav-link">More</span>
-            {showMore && (
-              <ul className="dropdown-menu">
-                <li><a href="https://github.com/GUNASEKHAR5" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/guna-sekhar-kudimi-97b3b5326" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://leetcode.com/u/GUNASEKHARKUDIMI/" target="_blank" rel="noopener noreferrer">LeetCode</a></li>
-              </ul>
-            )}
+          <li className="nav-item">
+            <NavLink to="/more" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+              More
+            </NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/contact" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
