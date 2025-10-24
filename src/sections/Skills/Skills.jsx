@@ -1,4 +1,3 @@
-// src/sections/Skills/Skills.jsx
 import React from 'react';
 import './Skills.css';
 import { FaJava } from 'react-icons/fa';

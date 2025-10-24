@@ -1,12 +1,9 @@
-/* src/sections/More/More.css */
-
 .more-section {
   padding: 6rem 0;
 }
 
 .more-grid {
   display: grid;
-  /* 3 columns as in your image, with a min-width for the items */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }

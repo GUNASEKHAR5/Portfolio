@@ -1,5 +1,3 @@
-/* src/components/ProjectCard/ProjectCard.css */
-
 .project-card {
   background: var(--card-background);
   border: 1px solid #2a2c33;
@@ -28,7 +26,7 @@
   font-size: 0.9rem;
   color: var(--secondary-text);
   line-height: 1.6;
-  flex-grow: 1; /* Makes description fill space */
+  flex-grow: 1;
   margin-bottom: 1rem;
 }
 

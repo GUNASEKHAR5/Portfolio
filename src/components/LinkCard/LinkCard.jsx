@@ -1,4 +1,3 @@
-// src/components/LinkCard/LinkCard.js
 import React from 'react';
 import './LinkCard.css';
 import { HiOutlineExternalLink } from 'react-icons/hi';

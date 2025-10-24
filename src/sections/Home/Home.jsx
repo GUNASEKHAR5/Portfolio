@@ -1,8 +1,7 @@
-// src/sections/Home/Home.js
 import React from 'react';
 import './Home.css';
-import profilePic from '../../assets/images/profile-pic.png'; // Make sure to add your image here
-import resumePDF from '../../assets/resume/Your_Resume.pdf'; // Add your resume PDF here
+import profilePic from '../../assets/images/profile-pic.png';
+import resumePDF from '../../assets/resume/Resume.pdf';
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 

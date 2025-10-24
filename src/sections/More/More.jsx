@@ -1,9 +1,7 @@
-// src/sections/More/More.js
 import React from 'react';
 import './More.css';
 import LinkCard from '../../components/LinkCard/LinkCard';
 
-// Add your personal links here
 const links = [
   {
     title: "LinkedIn",

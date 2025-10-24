@@ -1,9 +1,7 @@
-// src/sections/Projects/Projects.js
 import React from 'react';
 import './Projects.css';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
-// You can move this data to a separate JSON file later
 const projectData = [
   {
     title: 'SPARE - CHANGE',

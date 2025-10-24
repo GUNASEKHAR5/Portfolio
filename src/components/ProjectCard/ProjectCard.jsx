@@ -1,4 +1,3 @@
-// src/components/ProjectCard/ProjectCard.js
 import React from 'react';
 import './ProjectCard.css';
 import { HiOutlineExternalLink } from 'react-icons/hi';
