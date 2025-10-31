@@ -1,4 +1,3 @@
-// src/components/EducationCard/EducationCard.js
 import React from 'react';
 import './EducationCard.css';
 

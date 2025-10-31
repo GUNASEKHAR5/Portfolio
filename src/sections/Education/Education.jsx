@@ -1,4 +1,3 @@
-// src/sections/Education/Education.js
 import React from 'react';
 import './Education.css';
 import EducationCard from '../../components/EducationCard/EducationCard';
@@ -6,8 +5,8 @@ import EducationCard from '../../components/EducationCard/EducationCard';
 const educationData = [
   {
     school: "College of Engineering Guindy, Anna University",
-    degree: "Bachelor of Technology in Information Technology", // Corrected typo
-    details: "Current CGPA: 8.55", // Added "Current"
+    degree: "Bachelor of Technology in Information Technology",
+    details: "Current CGPA: 8.55",
     location: "Chennai, TamilNadu, India",
     date: "Aug. 2023 – Expected May 2027"
   },
@@ -19,8 +18,8 @@ const educationData = [
     date: "Aug. 2021 – May 2023"
   },
   {
-    school: "Sri Saraswathi Vignana Mandir (Secondary School Certificate)",
-    degree: "", // No degree, so pass an empty string
+    school: "Sri Saraswathi Vignana Mandir",
+    degree: "Secondary School Certificate",
     details: "Percentage: 100%",
     location: "Nagari, AndhraPradesh, India",
     date: "Aug. 2010 – May 2021"

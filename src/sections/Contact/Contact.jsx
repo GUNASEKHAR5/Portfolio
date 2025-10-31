@@ -1,4 +1,3 @@
-// src/sections/Contact/Contact.js
 import React from 'react';
 import './Contact.css';
 
@@ -14,7 +13,6 @@ function Contact() {
       <a href="mailto:your-email@example.com" className="contact-email-btn">
         Say Hello
       </a>
-      {/* You can add a full contact form here later */}
     </section>
   );
 }

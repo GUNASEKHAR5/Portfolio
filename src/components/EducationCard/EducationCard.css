@@ -32,7 +32,7 @@
 
 .education-right {
   text-align: right;
-  flex-shrink: 0; /* Prevents shrinking on smaller screens */
+  flex-shrink: 0;
   margin-left: 1rem;
 }
 

@@ -1,4 +1,3 @@
-// src/sections/About/About.js
 import React from 'react';
 import './About.css';
 import { FaLanguage, FaFlag, FaTransgender, FaHeart } from 'react-icons/fa';

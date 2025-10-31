@@ -1,8 +1,6 @@
-/* src/components/Navbar/Navbar.css */
-
 .navbar {
-  background: rgba(15, 16, 20, 0.8); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
+  background: rgba(15, 16, 20, 0.8);
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--card-background);
   height: 80px;
   display: flex;

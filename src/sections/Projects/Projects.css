@@ -1,5 +1,3 @@
-/* src/sections/Projects/Projects.css */
-
 .projects-section {
   padding: 6rem 0;
 }
@@ -18,7 +16,6 @@
   gap: 1.5rem;
 }
 
-/* Add this media query for mobile responsiveness */
 @media (max-width: 992px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);

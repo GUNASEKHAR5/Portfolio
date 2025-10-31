@@ -1,59 +1,48 @@
-.project-card {
+.link-card {
   background: var(--card-background);
   border: 1px solid #2a2c33;
   border-radius: 8px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  height: 100%;
   transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-.project-card:hover {
+.link-card:hover {
   transform: translateY(-5px);
   border-color: var(--accent-color);
 }
 
-.project-title {
+.link-title {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--primary-text);
-  margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.5rem 0;
 }
 
-.project-description {
+.link-description {
   font-size: 0.9rem;
   color: var(--secondary-text);
   line-height: 1.6;
   flex-grow: 1;
-  margin-bottom: 1rem;
-}
-
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
-.project-tag {
-  background: #2a2c33;
-  color: var(--secondary-text);
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
-
-.project-link {
+.link-button {
+  background-color: #101114; 
   color: var(--primary-text);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
   font-weight: 500;
+  text-align: center;
+  transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  border: 1px solid #3a3c44;
 }
 
-.project-link:hover {
-  color: var(--accent-color);
+.link-button:hover {
+  background-color: #2a2c33;
 }
