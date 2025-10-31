@@ -36,7 +36,7 @@ function Home() {
       </div>
 
       <div className="home-image-container">
-        <img src={profilePic} alt="Ayushman Dash" className="home-image" />
+        <img src={profilePic} alt="Kudimi Gunasekhar" className="home-image" />
       </div>
 
       <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="github-corner-link">
