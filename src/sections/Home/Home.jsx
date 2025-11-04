@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import profilePic from '../../assets/images/profile-pic.png';
+import profilePic from '../../assets/images/guna_image.jpg';
 import resumePDF from '../../assets/resume/Resume.pdf';
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
