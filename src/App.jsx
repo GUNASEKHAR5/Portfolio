@@ -18,13 +18,13 @@ function App() {
         <Navbar />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/more" element={<More />} />
+            <Route path="/Portfolio" element={<Home />} />
+            <Route path="/Portfolio/about" element={<About />} />
+            <Route path="/Portfolio/skills" element={<Skills />} />
+            <Route path="/Portfolio/projects" element={<Projects />} />
+            <Route path="/Portfolio/education" element={<Education />} />
+            <Route path="/Portfolio/contact" element={<Contact />} />
+            <Route path="/Portfolio/more" element={<More />} />
           </Routes>
         </main>
       </div>
