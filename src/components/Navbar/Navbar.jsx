@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <NavLink to="/Portfolio" className="nav-logo">
+        <NavLink to="/Portfolio" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} end>
           KUDIMI GUNASEKHAR
         </NavLink>
 
