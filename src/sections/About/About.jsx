@@ -10,7 +10,7 @@ function About() {
       <p className="about-roles">C++ | Java | React.js | ML | Web & Software Dev</p>
       
       <p className="about-description">
-        Hi, I'm <strong>KUDIMI GUNASEKHAR</strong>, a passionate developer with a strong foundation in C++, Java, JavaScript, React.js, and Machine Learning. I love building efficient, scalable, and creative solutions — from intelligent systems to modern web applications.<br /><br />
+        Hi, I'm <strong>KUDIMI GUNASEKHAR</strong>, a passionate developer with a strong foundation in C++, Java, JavaScript, React.js. I love building efficient, scalable, and creative solutions — from intelligent systems to modern web applications.<br /><br />
         I'm constantly learning and exploring new technologies, with a focus on clean code, smart design, and real-world impact. My goal is to bridge the gap between logic and creativity through technology.
       </p>
 

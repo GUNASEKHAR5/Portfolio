@@ -10,7 +10,7 @@ function Contact() {
         opportunities to be part of your visions.
       </p>
       
-      <a href="mailto:your-email@example.com" className="contact-email-btn">
+      <a href="mailto:kudimigunasekhar@gmail.com" className="contact-email-btn">
         Say Hello
       </a>
     </section>

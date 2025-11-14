@@ -30,7 +30,7 @@ function Skills() {
       <div className="skills-grid">
         <SkillIcon icon={<SiCplusplus size={40} />} name="C/C++" />
         <SkillIcon icon={<FaJava size={40} />} name="Java" />
-        <SkillIcon icon={<SiPython size={40} />} name="Python" />
+        {/* <SkillIcon icon={<SiPython size={40} />} name="Python" /> */}
         <SkillIcon icon={<SiPostgresql size={40} />} name="SQL (Postgres)" />
         <SkillIcon icon={<SiJavascript size={40} />} name="JavaScript" />
         <SkillIcon icon={<SiHtml5 size={40} />} name="HTML" />

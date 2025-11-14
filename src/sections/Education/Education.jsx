@@ -11,7 +11,7 @@ const educationData = [
     date: "Aug. 2023 – Expected May 2027"
   },
   {
-    school: "Sri Surya Junior College (Intermediate)",
+    school: "Sri Surya Junior College",
     degree: "M.P.C",
     details: "Percentage: 98.9%",
     location: "Nagari, AndhraPradesh, India",

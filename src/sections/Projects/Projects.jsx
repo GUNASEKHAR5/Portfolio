@@ -4,28 +4,35 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 const projectData = [
   {
-    title: 'SPARE - CHANGE',
-    description: 'An intelligent finance app that rounds up every user transaction and automatically saves the spare change toward goals, donations, or investments. It gives real-time insights into spending, savings growth, and charitable contributions through a smart dashboard.',
-    tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'REST API','JWT Auth'],
+    title: 'CodePad',
+    description:
+      'A lightweight multi-language code editor supporting .txt, .c, .cpp, .h, .java, and .py files. Features a multi-tab UI with autosave and keyboard shortcuts, ProcessBuilder-based compilation for C, C++, Java, and Python, smart file detection, and multi-file Java project support.',
+    tags: ['Java Swing', 'ProcessBuilder', 'File I/O', 'Multithreading'],
+    link: 'https://github.com/GUNASEKHAR5/Notepad'
+  },
+
+  {
+    title: 'Finance Tracker',
+    description:
+      'A CLI-based personal finance tracker with expense addition, search, categorization, and history. Implements trees for sorting, linked lists for history, and hash tables for fast lookups, built with a modular, object-oriented architecture.',
+    tags: ['C++', 'Trees', 'Linked Lists', 'Hashing', 'OOP'],
     link: 'https://github.com/GUNASEKHAR5'
   },
+
   {
-    title: 'NOTEPAD',
-    description: 'The Notepad Application is a simple text editor built with Java Swing for creating, opening, editing, and saving text files. It mimics basic Windows Notepad functionality with a clean and intuitive interface. The app includes a custom icon, menus, and options, showcasing core Java GUI programming concepts.',
-    tags: ['Java', 'Swing', 'AWT','I/O'],
-    link: 'https://github.com/GUNASEKHAR5/Notepad'
+    title: 'Spare Change',
+    description:
+      'A full-stack FinTech app that auto-allocates spare change into donation, investment, and savings wallets. Includes secure REST APIs with JWT authentication, PostgreSQL transactions, a responsive React frontend, and a microservice architecture using Flask for ML-based recommendations.',
+    tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'REST API', 'JWT Auth'],
+    link: 'https://github.com/GUNASEKHAR5/SPARE_CHANGE'
   },
-  // {
-  //   title: 'FINANCE TRACKER',
-  //   description: 'Developed a CLI-based personal finance tracker with expense addition, search, categorization, and historyn.Implemented trees for sorting, linked lists for history, and hash tables for fast lookups.Designed a modular, object-oriented codebase ensuring scalability and structured financial data management',
-  //   tags: ['C++', 'Tress', 'Linked Lists', 'Hashing','OOP'],
-  //   link: 'https://github.com/GUNASEKHAR5/Notepad'
-  // },
+
   {
-    title: 'FINANCE TRACKER',
-    description: 'Developed a CLI-based personal finance tracker with expense addition, search, categorization, and historyn.Implemented trees for sorting, linked lists for history, and hash tables for fast lookups.Designed a modular, object-oriented codebase ensuring scalability and structured financial data management',
-    tags: ['C++', 'Tress', 'Linked Lists', 'Hashing','OOP'],
-    link: 'https://github.com/GUNASEKHAR5/Notepad'
+    title: 'Minimal Text Editor in xv6',
+    description:
+      'A lightweight text editor built inside xv6 OS. Modified file system calls for in-place editing, implemented low-level file handling in C, and gained hands-on experience with system call interfaces, OS-level programming, and memory management.',
+    tags: ['xv6 OS', 'C', 'System Calls'],
+    link: 'https://github.com/Gogul11/Exitor'
   }
 ];
 
