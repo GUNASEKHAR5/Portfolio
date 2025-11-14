@@ -39,7 +39,7 @@ function Home() {
         <img src={profilePic} alt="Kudimi Gunasekhar" className="home-image" />
       </div>
 
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="github-corner-link">
+      <a href="https://github.com/GUNASEKHAR5" target="_blank" rel="noopener noreferrer" className="github-corner-link">
         <FaGithub /> Github
       </a>
     </section>
