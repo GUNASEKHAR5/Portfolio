@@ -13,37 +13,37 @@ function Navbar() {
 
         <ul className="nav-menu">
           <li className="nav-item">
-            <NavLink to="/" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} end>
+            <NavLink to="/Portfolio" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} end>
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+            <NavLink to="/Portfolio/about" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/skills" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+            <NavLink to="/Portfolio/skills" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
               Skills
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/projects" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+            <NavLink to="/Portfolio/projects" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
               Projects
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/education" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+            <NavLink to="/Portfolio/education" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
               Education
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/more" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+            <NavLink to="/Portfolio/more" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
               More
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/contact" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
+            <NavLink to="/Portfolio/contact" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
               Contact
             </NavLink>
           </li>
