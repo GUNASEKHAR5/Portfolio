@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <NavLink to="/" className="nav-logo">
+        <NavLink to="/Portfolio" className="nav-logo">
           KUDIMI GUNASEKHAR
         </NavLink>
 
