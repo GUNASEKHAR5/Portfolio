@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+// import './Projects.css'; // No longer needed
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 const projectData = [
@@ -38,15 +38,24 @@ const projectData = [
 
 function Projects() {
   return (
-    <section className="projects-section" id="projects">
-      <span className="section-tag">Projects</span>
-      <h2 className="section-title">My Projects</h2>
+    <section className="py-24" id="projects">
+      {/* Section Tag */}
+      <span className="bg-[var(--card-background)] text-[var(--primary-text)] px-3 py-1 rounded-xl text-sm font-medium">
+        Projects
+      </span>
+
+      {/* Title with underline */}
+      <h2 className="text-[2.5rem] font-bold mt-4 mb-2 relative after:content-[''] after:block after:w-[70px] after:h-[4px] after:bg-[var(--accent-color)] after:mt-2 after:rounded-[2px]">
+        My Projects
+      </h2>
       
-      <p className="projects-subtitle">
+      {/* Subtitle */}
+      <p className="text-[1.1rem] text-[var(--secondary-text)] leading-[1.7] max-w-[800px] mb-12">
         Feel free to go through my projects and give it a star on GitHub.
       </p>
 
-      <div className="projects-grid">
+      {/* Grid Layout: 1 col on mobile, 2 on tablet, 3 on desktop */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projectData.map((project) => (
           <ProjectCard
             key={project.title}

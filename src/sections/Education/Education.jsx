@@ -1,5 +1,5 @@
 import React from 'react';
-import './Education.css';
+// import './Education.css'; // No longer needed
 import EducationCard from '../../components/EducationCard/EducationCard';
 
 const educationData = [
@@ -28,10 +28,11 @@ const educationData = [
 
 function Education() {
   return (
-    <section className="education-section" id="education">
+    <section className="py-24 min-h-[60vh]" id="education">
       <h2 className="section-title">Education</h2>
       
-      <div className="education-list">
+      {/* Education List Container */}
+      <div className="flex flex-col gap-4">
         {educationData.map((edu) => (
           <EducationCard 
             key={edu.school}
