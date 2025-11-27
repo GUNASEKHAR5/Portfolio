@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Home.css'; // No longer needed
 import profilePic from '../../assets/images/guna_image.jpg';
 import resumePDF from '../../assets/resume/Resume.pdf';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
@@ -9,11 +8,9 @@ function Home() {
   return (
     <section className="flex items-center justify-between py-24 min-h-[90vh] relative" id="home">
       
-      {/* Content Area */}
       <div className="flex-1 max-w-[600px]">
         <p className="text-[1.25rem] text-[var(--secondary-text)] mb-2">Hey! I am</p>
         
-        {/* Name with the blue accent line using pseudo-elements (before:) */}
         <h1 className="text-[5rem] font-bold leading-[1.1] mb-6 relative pl-4 before:content-[''] before:absolute before:-left-[10px] before:top-[15px] before:bottom-[15px] before:w-[6px] before:bg-[var(--accent-color)] before:rounded-[3px]">
           KUDIMI<br />
           GUNASEKHAR
@@ -23,7 +20,6 @@ function Home() {
           I am a Software Developer
         </p>
         
-        {/* Social Icons */}
         <div className="flex gap-4 mb-10">
           <a 
             href="https://linkedin.com/in/guna-sekhar-kudimi-97b3b5326" 
@@ -51,7 +47,6 @@ function Home() {
           </a>
         </div>
 
-        {/* Resume Button */}
         <a 
           href={resumePDF} 
           download="KUDIMI_GUNASEKHAR_Resume.pdf" 
@@ -61,7 +56,6 @@ function Home() {
         </a>
       </div>
 
-      {/* Image Container */}
       <div className="shrink-0 ml-8">
         <img 
           src={profilePic} 
@@ -70,7 +64,6 @@ function Home() {
         />
       </div>
 
-      {/* Github Corner Link */}
       <a 
         href="https://github.com/GUNASEKHAR5" 
         target="_blank" 

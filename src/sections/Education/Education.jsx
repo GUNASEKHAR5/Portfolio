@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Education.css'; // No longer needed
 import EducationCard from '../../components/EducationCard/EducationCard';
 
 const educationData = [
@@ -31,7 +30,6 @@ function Education() {
     <section className="py-24 min-h-[60vh]" id="education">
       <h2 className="section-title">Education</h2>
       
-      {/* Education List Container */}
       <div className="flex flex-col gap-4">
         {educationData.map((edu) => (
           <EducationCard 

@@ -1,11 +1,9 @@
 import React from 'react';
-// import './EducationCard.css'; // No longer needed
 
 function EducationCard({ school, degree, details, location, date }) {
   return (
     <div className="flex justify-between items-start py-6 border-b border-[var(--card-background)]">
       
-      {/* Left Side: School Info */}
       <div className="text-left">
         <h3 className="text-xl font-semibold text-[var(--primary-text)] mb-1">
           {school}
@@ -18,7 +16,6 @@ function EducationCard({ school, degree, details, location, date }) {
         </p>
       </div>
 
-      {/* Right Side: Location & Date */}
       <div className="text-right shrink-0 ml-4">
         <p className="text-base font-medium text-[var(--primary-text)] mb-1">
           {location}

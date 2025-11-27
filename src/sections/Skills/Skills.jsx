@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Skills.css'; // No longer needed
 import { FaJava } from 'react-icons/fa';
 import { VscCode } from 'react-icons/vsc'; 
 import { 
@@ -18,23 +17,19 @@ const SkillIcon = ({ icon, name }) => (
 function Skills() {
   return (
     <section className="py-24" id="skills">
-      {/* Section Tag */}
       <span className="bg-[var(--card-background)] text-[var(--primary-text)] px-3 py-1 rounded-xl text-sm font-medium">
         My Skills
       </span>
 
-      {/* Title with underline */}
       <h2 className="text-[2.5rem] font-bold mt-4 mb-2 relative after:content-[''] after:block after:w-[70px] after:h-[4px] after:bg-[var(--accent-color)] after:mt-2 after:rounded-[2px]">
         My Technical Skills.
       </h2>
       
-      {/* Intro Text */}
       <p className="text-[1.1rem] text-[var(--secondary-text)] leading-[1.7] max-w-[800px] mb-12">
         Here are the technologies I work with. I'm proficient in languages like C++, Java, and Python, 
         and experienced in building web applications with JavaScript, React, and Node.js.
       </p>
 
-      {/* --- Languages --- */}
       <h3 className="text-[1.5rem] font-semibold text-[var(--primary-text)] mt-12 mb-6">
         Languages
       </h3>
@@ -48,7 +43,6 @@ function Skills() {
         <SkillIcon icon={<SiCss3 size={40} />} name="CSS" />
       </div>
 
-      {/* --- Frameworks --- */}
       <h3 className="text-[1.5rem] font-semibold text-[var(--primary-text)] mt-12 mb-6">
         Frameworks
       </h3>
@@ -57,7 +51,6 @@ function Skills() {
         <SkillIcon icon={<SiNodedotjs size={40} />} name="Node.js" />
       </div>
 
-      {/* --- Developer Tools --- */}
       <h3 className="text-[1.5rem] font-semibold text-[var(--primary-text)] mt-12 mb-6">
         Developer Tools
       </h3>

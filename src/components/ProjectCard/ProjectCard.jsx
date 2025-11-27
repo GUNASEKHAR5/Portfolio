@@ -1,22 +1,18 @@
 import React from 'react';
-// import './ProjectCard.css'; // No longer needed
 import { HiOutlineExternalLink } from 'react-icons/hi';
 
 function ProjectCard({ title, description, tags, link }) {
   return (
     <div className="bg-[var(--card-background)] border border-[#2a2c33] rounded-lg p-6 flex flex-col h-full transition-all duration-300 ease-in-out hover:-translate-y-[5px] hover:border-[var(--accent-color)]">
       
-      {/* Title */}
       <h3 className="text-xl font-semibold text-[var(--primary-text)] mt-0 mb-3">
         {title}
       </h3>
       
-      {/* Description */}
       <p className="text-[0.9rem] text-[var(--secondary-text)] leading-[1.6] grow mb-4">
         {description}
       </p>
       
-      {/* Tags Container */}
       <div className="flex flex-wrap gap-2 mb-6">
         {tags.map((tag) => (
           <span 
@@ -28,7 +24,6 @@ function ProjectCard({ title, description, tags, link }) {
         ))}
       </div>
       
-      {/* Link */}
       <a 
         href={link} 
         target="_blank" 

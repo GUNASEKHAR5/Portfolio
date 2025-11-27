@@ -1,22 +1,18 @@
 import React from 'react';
-// import './LinkCard.css'; // No longer needed
 import { HiOutlineExternalLink } from 'react-icons/hi';
 
 function LinkCard({ title, description, link }) {
   return (
     <div className="bg-[var(--card-background)] border border-[#2a2c33] rounded-lg p-6 flex flex-col transition-all duration-300 ease-in-out hover:-translate-y-[5px] hover:border-[var(--accent-color)]">
       
-      {/* Title */}
       <h3 className="text-xl font-semibold text-[var(--primary-text)] mb-2">
         {title}
       </h3>
       
-      {/* Description */}
       <p className="text-[0.9rem] text-[var(--secondary-text)] leading-[1.6] flex-grow mb-6">
         {description}
       </p>
       
-      {/* Button */}
       <a 
         href={link} 
         target="_blank" 

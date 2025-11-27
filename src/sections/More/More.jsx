@@ -1,5 +1,4 @@
 import React from 'react';
-// import './More.css'; // No longer needed
 import LinkCard from '../../components/LinkCard/LinkCard';
 
 const links = [
@@ -23,17 +22,14 @@ const links = [
 function More() {
   return (
     <section className="py-24" id="more">
-      {/* Section Tag */}
       <span className="bg-[var(--card-background)] text-[var(--primary-text)] px-3 py-1 rounded-xl text-sm font-medium">
         More
       </span>
       
-      {/* Title - replicates the .section-title style with underline */}
       <h2 className="text-[2.5rem] font-bold mt-4 mb-8 relative after:content-[''] after:block after:w-[70px] after:h-[4px] after:bg-[var(--accent-color)] after:mt-2 after:rounded-[2px]">
         More
       </h2>
       
-      {/* Grid Layout using arbitrary values to match your design exactly */}
       <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6">
         {links.map((item) => (
           <LinkCard 

@@ -1,34 +1,27 @@
 import React from 'react';
-// import './About.css'; // No longer needed
 import { FaLanguage, FaFlag, FaTransgender, FaHeart } from 'react-icons/fa';
 
 function About() {
   return (
     <section className="py-24" id="about">
-      {/* Tag */}
       <span className="bg-[var(--card-background)] text-[var(--primary-text)] px-3 py-1 rounded-xl text-sm font-medium">
         About me
       </span>
 
-      {/* Title */}
       <h2 className="text-[2.5rem] font-bold mt-4 mb-2">
         The MultiTech Creator
       </h2>
 
-      {/* Roles */}
       <p className="text-xl text-[var(--accent-color)] font-medium mb-6">
         C++ | Java | React.js | Web & Software Dev
       </p>
       
-      {/* Description */}
       <p className="text-[1.1rem] text-[var(--secondary-text)] leading-relaxed max-w-[800px] mb-12">
         Hi, I'm <strong>KUDIMI GUNASEKHAR</strong>, a passionate developer with a strong foundation in C++, Java, JavaScript, React.js. I love building efficient, scalable, and creative solutions — from intelligent systems to modern web applications.<br /><br />
         I'm constantly learning and exploring new technologies, with a focus on clean code, smart design, and real-world impact. My goal is to bridge the gap between logic and creativity through technology.
       </p>
 
-      {/* Details Grid */}
       <div className="flex flex-wrap gap-8 mb-12">
-        {/* Detail Item 1 */}
         <div className="bg-[var(--card-background)] p-6 rounded-lg border border-[#2a2c33] min-w-[200px]">
           <h4 className="text-base text-[var(--secondary-text)] mt-0 mb-4 flex items-center gap-2">
             <FaLanguage /> Language
@@ -40,7 +33,6 @@ function About() {
           </ul>
         </div>
 
-        {/* Detail Item 2 */}
         <div className="bg-[var(--card-background)] p-6 rounded-lg border border-[#2a2c33] min-w-[200px]">
           <h4 className="text-base text-[var(--secondary-text)] mt-0 mb-4 flex items-center gap-2">
             <FaFlag /> Nationality
@@ -50,7 +42,6 @@ function About() {
           </ul>
         </div>
 
-        {/* Detail Item 3 */}
         <div className="bg-[var(--card-background)] p-6 rounded-lg border border-[#2a2c33] min-w-[200px]">
           <h4 className="text-base text-[var(--secondary-text)] mt-0 mb-4 flex items-center gap-2">
             <FaTransgender /> Gender
@@ -61,7 +52,6 @@ function About() {
         </div>
       </div>
 
-      {/* Hobbies */}
       <div className="about-hobbies">
         <h4 className="text-[1.1rem] flex items-center gap-2 text-[var(--secondary-text)] mb-4">
           <FaHeart /> Hobbies

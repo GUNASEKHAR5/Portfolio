@@ -1,4 +1,4 @@
-@import "tailwindcss"; /* <--- In v4, this replaces @tailwind base/components/utilities */
+@import "tailwindcss";
 
 :root {
   --background-color: #0f1014; 

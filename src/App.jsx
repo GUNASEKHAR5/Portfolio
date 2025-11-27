@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import './App.css'; // You can remove this if you move the .section-title class to index.css
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './sections/Home/Home';

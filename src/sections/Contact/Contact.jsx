@@ -1,14 +1,8 @@
 import React from 'react';
-// import './Contact.css'; // No longer needed
 
 function Contact() {
   return (
     <section className="py-24 min-h-[60vh] text-center" id="contact">
-      {/* Title:
-        - mx-auto: Centers the element itself
-        - w-fit: Makes the box only as wide as the text (so margin auto works)
-        - after:mx-auto: Centers the underline pseudo-element defined in your global .section-title
-      */}
       <h2 className="section-title mx-auto w-fit after:left-0 after:right-0 after:mx-auto">
         Contact Me
       </h2>
