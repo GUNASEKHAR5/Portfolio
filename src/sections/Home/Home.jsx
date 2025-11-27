@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../../assets/images/guna_image.jpg';
+import profilePic from '../../assets/images/kgss-image1.jpg';
 import resumePDF from '../../assets/resume/Resume.pdf';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
