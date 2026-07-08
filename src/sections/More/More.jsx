@@ -14,7 +14,7 @@ const links = [
   },
   {
     title: "LeetCode",
-    description: "I write codes on a daily basis and I have solved 50+ problems of DSA.",
+    description: "I write codes on a daily basis and I have solved 100+ problems of DSA.",
     link: "https://leetcode.com/u/GUNASEKHARKUDIMI/"
   }
 ];

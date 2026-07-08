@@ -3,6 +3,22 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 const projectData = [
   {
+    title: 'SecureVault AI',
+    description:
+      'An AI-powered Android security vault for protecting sensitive files using AES-256 encryption, biometric authentication, OCR-based document detection, and offline-first storage. Includes Geo-Lock, Time-Lock, Panic Mode, Smart Intruder Detection, encrypted cloud backup, and Decoy Vault for enhanced privacy.',
+    tags: ['Kotlin', 'Jetpack Compose', 'Room', 'AES-256'],
+    link: 'https://github.com/GUNASEKHAR5/SecureVault.git'
+  },
+  
+  {
+    title: 'Research Project Financial Management System',
+    description:
+      'A full-stack financial management platform for university research projects with secure role-based access, automated audit logging, budget tracking, expense management, and interactive analytics dashboards. Features JWT authentication, PostgreSQL triggers, JSONB audit trails, and real-time financial insights.',
+    tags: ['React', 'Node.js', 'Express', 'PostgreSQL'],
+    link: 'https://github.com/GUNASEKHAR5/Research-Project-Financial-Management-System.git'
+  },
+
+  {
     title: 'CodePad',
     description:
       'A lightweight multi-language code editor supporting .txt, .c, .cpp, .h, .java, and .py files. Features a multi-tab UI with autosave and keyboard shortcuts, ProcessBuilder-based compilation for C, C++, Java, and Python, smart file detection, and multi-file Java project support.',
