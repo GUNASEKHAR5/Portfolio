@@ -2,13 +2,13 @@ import React from 'react';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 const projectData = [
-  {
-    title: 'SecureVault AI',
-    description:
-      'An AI-powered Android security vault for protecting sensitive files using AES-256 encryption, biometric authentication, OCR-based document detection, and offline-first storage. Includes Geo-Lock, Time-Lock, Panic Mode, Smart Intruder Detection, encrypted cloud backup, and Decoy Vault for enhanced privacy.',
-    tags: ['Kotlin', 'Jetpack Compose', 'Room', 'AES-256'],
-    link: 'https://github.com/GUNASEKHAR5/SecureVault.git'
-  },
+  // {
+  //   title: 'SecureVault AI',
+  //   description:
+  //     'An AI-powered Android security vault for protecting sensitive files using AES-256 encryption, biometric authentication, OCR-based document detection, and offline-first storage. Includes Geo-Lock, Time-Lock, Panic Mode, Smart Intruder Detection, encrypted cloud backup, and Decoy Vault for enhanced privacy.',
+  //   tags: ['Kotlin', 'Jetpack Compose', 'Room', 'AES-256'],
+  //   link: 'https://github.com/GUNASEKHAR5/SecureVault.git'
+  // },
   
   {
     title: 'Research Project Financial Management System',
