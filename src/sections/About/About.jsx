@@ -17,7 +17,7 @@ function About() {
       </p>
       
       <p className="text-[1.1rem] text-[var(--secondary-text)] leading-relaxed max-w-[800px] mb-12">
-        Hi, I'm <strong>KUDIMI GUNASEKHAR</strong>, a passionate developer with a strong foundation in C++, Java, JavaScript, React.js. I love building efficient, scalable, and creative solutions — from intelligent systems to modern web applications.<br /><br />
+        Hi, I'm <strong>KUDIMI GUNASEKHAR</strong>, a passionate developer with a strong foundation in C++, Java, JavaScript, React.js. I love building efficient, scalable, and creative solutions from intelligent systems to modern web applications.<br /><br />
         I'm constantly learning and exploring new technologies, with a focus on clean code, smart design, and real-world impact. My goal is to bridge the gap between logic and creativity through technology.
       </p>
 

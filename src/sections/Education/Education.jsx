@@ -5,7 +5,7 @@ const educationData = [
   {
     school: "College of Engineering Guindy, Anna University",
     degree: "Bachelor of Technology in Information Technology",
-    details: "Current CGPA: 8.55",
+    details: "Current CGPA: 8.41",
     location: "Chennai, TamilNadu, India",
     date: "Aug. 2023 – Expected May 2027"
   },
