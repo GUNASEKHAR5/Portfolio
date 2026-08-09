@@ -9,6 +9,14 @@ const projectData = [
   //   tags: ['Kotlin', 'Jetpack Compose', 'Room', 'AES-256'],
   //   link: 'https://github.com/GUNASEKHAR5/SecureVault.git'
   // },
+
+  {
+    title: 'DocuTrust AI',
+    description:
+      'An automated document privacy and anonymization platform that redacts sensitive visual elements and text PII before querying LLMs. Features YOLOv8 object detection for face and stamp masking, EasyOCR and spaCy NER for contextual text redaction, FastAPI backend processing, and an interactive Streamlit dashboard for secure document Q&A.',
+    tags: ['FastAPI', 'Python', 'YOLOv8', 'spaCy', 'EasyOCR', 'Gemini API'],
+    link: 'https://github.com/GUNASEKHAR5/DocuTrust-AI.git'
+  },
   
   {
     title: 'Research Project Financial Management System',
